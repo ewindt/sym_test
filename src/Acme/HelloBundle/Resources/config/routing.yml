@@ -2,6 +2,6 @@
 #     path:     /hello/{name}
 #     defaults: { _controller: AcmeHelloBundle:Default:index }
 
-acme_hello_homepage:
+hello:
     path:     /hello/{name}
-    defaults: { _controller: AcmeHelloBundle:Default:index }
+    defaults: { _controller: AcmeHelloBundle:Hello:index }
