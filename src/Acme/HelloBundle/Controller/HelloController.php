@@ -4,7 +4,8 @@ namespace Acme\HelloBundle\Controller;
 use Symfony\Component\HttpFoundation\Response;
 class HelloController {
 	public function indexAction ($name){
-		return new Response("<html><body>Hello,asd $name!</body></html>");
+		return $this->render("AcmeHelloBundle:Hello:index.html.twig", array('name' => $name));
+		//return new Response("<html><body>Hello,asd $name!</body></html>");
 	}
 }
 ?>
