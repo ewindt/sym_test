@@ -3,5 +3,5 @@
 #     defaults: { _controller: AcmeHelloBundle:Default:index }
 
 hello: 
-	pattern: /hello/{name}
+	path: /hello/{name}
 	defaults: { _controller: AcmeHelloBundle:Hello:index }
